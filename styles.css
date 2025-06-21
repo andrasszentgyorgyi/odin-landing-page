@@ -36,3 +36,38 @@ ul {
 button{
     width:100px;
 }
+
+.cards{
+    display:flex;
+    justify-content: center;
+    gap:52px;
+}
+
+.card-one , .card-two ,.card-three , .card-four{
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content:space-evenly;
+  max-width:200px;
+}
+
+.quote-container{
+    display:flex;
+    flex-direction: column;
+    padding: 50px 50px;
+}
+
+.quote{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    margin:0px;
+}
+.quote-author{
+    padding:0px;
+    margin:0px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: end;
+}
