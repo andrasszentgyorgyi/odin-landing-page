@@ -1,5 +1,5 @@
 * {
-    outline: 1px solid red;
+    outline: 0px solid red;
     font-family: 'Roboto';
 }
 
@@ -64,7 +64,15 @@ button{
     flex-direction: column;
     align-items: flex-start;
     width:400px;
+    margin-bottom:50px;
 
+}
+
+.title button{
+    border-radius:5px;
+    height:30px;
+    margin:10px;
+    margin-left: 0;
 }
 
 .title h1{
@@ -100,6 +108,7 @@ button{
     justify-content:space-around;
     gap:52px;
     margin: 0px 100px;
+    margin-bottom: 50px;
 }
 
 .card-text{
@@ -137,10 +146,11 @@ button{
     align-items: center;
     justify-content: center;
     padding: 0px;
-    margin:0px;
+    margin:0px 50px;
     font-size:36px;
     font-style: italic;
     color: #1F2937;
+
 }
 .quote-author{
     padding:0px;
@@ -159,10 +169,13 @@ button{
 .signup-block{
     margin:50px;
     display:flex;
+    background-color:#3882F6;
+    border-radius: 5px;
 }
 
 .signup-text{
     margin:20px;
+    color:white;
 }
 
 .signup-button-container{
@@ -172,11 +185,22 @@ button{
     margin:20px;
 }
 
+.signup-button{
+    border-radius:2px;
+    border: 1px solid white;
+    width:80px;
+}
+
 .footer{
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #1F2937;
+    height:50px;
+}
+
+.footer p{
+    color:white;
 }
 
 
